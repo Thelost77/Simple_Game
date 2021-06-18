@@ -31,6 +31,7 @@ namespace Simple_Game
             var goal = rnd.Next(100);
             int attemptCounter = 0;
 
+
             while (attemptCounter>-1)
             {
                 Console.WriteLine("\nPodaj liczbę w zakresie od 0 do 100.\n");
