@@ -25,6 +25,7 @@ namespace Simple_Game
         }
         static void Main(string[] args)
         {
+
             Console.WriteLine("\nWitaj, celem tej gry jest zgadnięcie losowej liczby w przedziale od 0 do 100.\n");
             var rnd = new Random();
             var goal = rnd.Next(100);
