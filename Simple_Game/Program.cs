@@ -32,7 +32,7 @@ namespace Simple_Game
             int attemptCounter = 0;
 
 
-            while (attemptCounter>-1)
+            while (true)
             {
                 Console.WriteLine("\nPodaj liczbę w zakresie od 0 do 100.\n");
                 var choosenNumber = GetNumber();
